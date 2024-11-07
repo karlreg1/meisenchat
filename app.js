@@ -11,11 +11,9 @@ app.get("/",(req, res, next) =>{
 });
 
 app.get("/login/",(req, res)=>{
+    res.sendFile(path.join(__dirname + "/login.html"));
     console.log("login");
 });
 
-function authenticateUser(req, res, next){
-    
-}
 
 app.listen(8080);

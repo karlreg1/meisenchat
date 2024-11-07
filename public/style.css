@@ -1,16 +1,29 @@
 h1 {
-    color: blueviolet;
+    color: #454E9E;
+    margin-top: 5%;
     text-align: center;
 }
 
 body {
     font-family: sans-serif;
-    background-color: whitesmoke;
+    color: #454E9E;
+    background-color: #343B78;
+    text-align: center;
+    
 }
 
 .middle {
     width: 60%;
+    height: auto;
+    padding: 5px;
     margin-left: auto;
     margin-right: auto;
-    background-color: grey;
+    border-radius: 25px;
+    background-color: #BA9B02;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+    background-color: #454E9E;
+    border-color: #454E9E;
 }
